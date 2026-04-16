@@ -31,8 +31,8 @@ user_collection = db["patient"]
 convo_collection = db["conversation"]
 
 model = st("local_model")
-
-loader = TextLoader("C:/Users/tushar.mehta/q/document.txt",encoding='utf-8')
+# Add RAG document here
+loader = TextLoader("file_rag.txt",encoding='utf-8')
 documents = loader.load()
 
 imap_server = 'imap.gmail.com'
