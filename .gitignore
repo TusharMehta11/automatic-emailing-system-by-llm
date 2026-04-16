@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.pyp
+.Python
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs / secrets
+*.log
+.env
+
